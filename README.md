@@ -55,7 +55,9 @@ La classe ha come **comportamenti**:
 ## Comportamento finale atteso dalla classe
 Ci si attende che una nuova targa possa essere creata come `TargaCasuale t`.
 
-`t.targa; // valore di targa`
+```cpp
+t.targa; // valore di targa
+t.sostituisciPerc(); //ritorna nuova stringa con seconda e penultima lettera con il simbolo “%” (funzione 1 del gruppo di destra)
+```
 
-`t.sostituisciPerc(); //ritorna nuova stringa con seconda e penultima lettera con il simbolo “%” (funzione 1 del gruppo di destra)`
 ecc per tutte le altre funzioni
