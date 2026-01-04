@@ -55,12 +55,12 @@ int main()
     string targa;
     char prima,c,seconda,terzo,quarto,quinto,sesta,settima;
 
-    if (parola.length() > 4) {
-        c=toupper(parola[4]);
+    if (parola.length()>4) {
+        c=toupper(parola[3]);
         if (c!='A' && c!='E' && c!='I' && c!='O' && c!='U')
             prima=c;
         else{
-            cout<<"la quarta lettera della parola non è valida"<<endl;
+            cout<<"la quarta lettera della parola non e' valida"<<endl;
             prima='Z';//la quarta lettera della parola non essendo una consonante non è idonea, perciò per far continuare il programma utlizizzo 'Z'
         }
     }
