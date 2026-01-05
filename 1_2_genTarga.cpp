@@ -8,7 +8,7 @@ const string parola="informatica";
 
 void menu(){
     cout<<"--MENU--"<<endl;
-    cout<<"1- sostituire 'X’ al posto dei numeri"<<endl;
+    cout<<"1- sostituire 'X' al posto dei numeri"<<endl;
     cout<<"2- invertire la targa utilizzando il metodo at()"<<endl;
     cout<<"3- cerca un numero utilizzando il metodo find()"<<endl;
     cout<<"4- esci"<<endl;
@@ -43,7 +43,7 @@ string invertiTarga(string targa){
 bool presenzaNumero(string targa, int num){
     string s=to_string(num);    // converto num in stringa con il comando to_string
     int pos=targa.find(s);
-    if(pos>=0)
+    if(pos!=-1)
         return true;
     else
         return false;
